@@ -1,12 +1,12 @@
 {
-  "version": "0.9.2",
-  "published": "2026-09-08T06:33:41Z",
-  "assets": {
-    "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.2.exe",
-      "sha256": "78b240bce8df6ee5fc1840f4578935763449bc44913ef33e2e21ea3a51636333",
-      "size": 26470912
-    }
-  },
-  "notes": "0.9.2 — 오류 로그 자동 전송 켬. 0.9.1: 직스캐드(ZYXCAD 2026) 지원, 켰을 때 업데이트 창, 큰 도면은 화면 범위로 읽음, 문 겹침 수정."
+    "version":  "0.9.3",
+    "published":  "2026-09-08T07:19:37Z",
+    "assets":  {
+                   "setup":  {
+                                 "url":  "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.3.exe",
+                                 "sha256":  "470eadce4e4779960d5a8e7ab381af532fb59d9d28d6eb5d9df1d3d950e855cd",
+                                 "size":  26485760
+                             }
+               },
+    "notes":  "0.9.3 — 캐드가 켜져 있어도 한 번에 깔린다: 캐드를 끄면 파일이 저절로 바뀌고, 다음 켤 때 새 벨라가 뜬다. 직스캐드에서 상태·잡·캡처가 오토캐드와 같은 길로 간다."
 }
