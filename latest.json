@@ -1,0 +1,12 @@
+{
+  "version": "0.9.1",
+  "published": "2026-09-08T06:20:41Z",
+  "assets": {
+    "setup": {
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.1.exe",
+      "sha256": "2f38fe8660b195d746052b495957d9c131cd39e6217d375e0e02e816dfd39b36",
+      "size": 26470400
+    }
+  },
+  "notes": "0.9.1 — 직스캐드(ZYXCAD 2026) 지원. 팔레트가 직스캐드에서 뜨도록 고침. 켰을 때 업데이트 창. 큰 도면은 화면 범위로 읽음. 문 겹침 수정."
+}
