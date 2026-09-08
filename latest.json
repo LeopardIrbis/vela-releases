@@ -1,12 +1,12 @@
 {
-    "version":  "0.9.3",
-    "published":  "2026-09-08T07:19:37Z",
+    "version":  "0.9.4",
+    "published":  "2026-09-08T10:38:07Z",
     "assets":  {
                    "setup":  {
-                                 "url":  "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.3.exe",
-                                 "sha256":  "470eadce4e4779960d5a8e7ab381af532fb59d9d28d6eb5d9df1d3d950e855cd",
-                                 "size":  26485760
+                                 "url":  "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.4.exe",
+                                 "sha256":  "5b00e6cb92774a5ef1b659214d9d0fe49ce28ff486bf1037dc3790d618d5aee2",
+                                 "size":  26501632
                              }
                },
-    "notes":  "0.9.3 — 캐드가 켜져 있어도 한 번에 깔린다: 캐드를 끄면 파일이 저절로 바뀌고, 다음 켤 때 새 벨라가 뜬다. 직스캐드에서 상태·잡·캡처가 오토캐드와 같은 길로 간다."
+    "notes":  "0.9.4 — 캐드를 닫을 때 설치가 같이 꺼지던 것 고침. 설치는 캐드 밖에서 산다. 설치 흔적: %LOCALAPPDATA%\\Vela\\updates\\setup.log"
 }
