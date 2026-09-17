@@ -1,12 +1,12 @@
 {
-  "version": "0.9.5",
-  "published": "2026-09-17T05:52:46Z",
+  "version": "0.9.6",
+  "published": "2026-09-17T06:22:07Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.5.exe",
-      "sha256": "941c321f2d92ae9eb976dc084afdfcedb882279d3c2ee931d11e1f7ecd7ebfa8",
-      "size": 26768896
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.6.exe",
+      "sha256": "f455f9f4e483e717a25c3666b4aab5a266ed0a2f2b4e79148fd8029a984e6f09",
+      "size": 26901504
     }
   },
-  "notes": "0.9.5 — 확인 한 번이면 캐드가 닫히고 깔리고 다시 켜진다. 채팅에 /update 치면 지금 확인, /report 치면 로그가 개발자에게 간다."
+  "notes": "0.9.6 — 보고가 이제 진짜로 간다. 이슈가 막혀 있으면 파일로 올린다. 실패하면 이유를 그대로 말한다. /report 만 치면 대화 전부와 장면·선택·판·로그가 같이 간다."
 }
