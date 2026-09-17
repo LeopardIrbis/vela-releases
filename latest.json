@@ -1,12 +1,12 @@
 {
-    "version":  "0.9.4",
-    "published":  "2026-09-08T10:38:07Z",
-    "assets":  {
-                   "setup":  {
-                                 "url":  "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.4.exe",
-                                 "sha256":  "5b00e6cb92774a5ef1b659214d9d0fe49ce28ff486bf1037dc3790d618d5aee2",
-                                 "size":  26501632
-                             }
-               },
-    "notes":  "0.9.4 — 캐드를 닫을 때 설치가 같이 꺼지던 것 고침. 설치는 캐드 밖에서 산다. 설치 흔적: %LOCALAPPDATA%\\Vela\\updates\\setup.log"
+  "version": "0.9.5",
+  "published": "2026-09-17T05:52:46Z",
+  "assets": {
+    "setup": {
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.5.exe",
+      "sha256": "941c321f2d92ae9eb976dc084afdfcedb882279d3c2ee931d11e1f7ecd7ebfa8",
+      "size": 26768896
+    }
+  },
+  "notes": "0.9.5 — 확인 한 번이면 캐드가 닫히고 깔리고 다시 켜진다. 채팅에 /update 치면 지금 확인, /report 치면 로그가 개발자에게 간다."
 }
