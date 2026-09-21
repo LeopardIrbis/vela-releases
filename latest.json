@@ -1,12 +1,12 @@
 {
-  "version": "0.9.6",
-  "published": "2026-09-17T06:22:07Z",
+  "version": "0.9.7",
+  "published": "2026-09-21T06:18:38Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.6.exe",
-      "sha256": "f455f9f4e483e717a25c3666b4aab5a266ed0a2f2b4e79148fd8029a984e6f09",
-      "size": 26901504
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.7.exe",
+      "sha256": "673abe51c7e18ec74c120478bf3aeebf35239e26f24163c95a5280754102959f",
+      "size": 27032064
     }
   },
-  "notes": "0.9.6 — 보고가 이제 진짜로 간다. 이슈가 막혀 있으면 파일로 올린다. 실패하면 이유를 그대로 말한다. /report 만 치면 대화 전부와 장면·선택·판·로그가 같이 간다."
+  "notes": "0.9.7 — 문장 속 '고쳐'가 요청을 납치하던 것 고침. 이제 /fix 명령으로만 그 뜻이 된다. 선택한 글자를 규칙으로 바꾸는 문법 추가 — 찾을 규칙 + 숫자 더하기/빼기 또는 갈아끼우기. 미리보기에 바뀔 글자가 하나씩 뜨고, 승인해야 들어간다."
 }
