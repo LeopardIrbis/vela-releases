@@ -1,12 +1,12 @@
 {
-  "version": "0.9.9",
-  "published": "2026-09-23T08:21:10Z",
+  "version": "0.9.10",
+  "published": "2026-09-23T08:24:56Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.9.exe",
-      "sha256": "6cc4e775598c83835abbd8530dc9dd0ea7d96f1efa6e7eb7690432a42ca50b1e",
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.10.exe",
+      "sha256": "6d077f973ba6fa9069307cb9ff8386fa4b8e639e6d465fb9957950ef279c410a",
       "size": 27458560
     }
   },
-  "notes": "0.9.9 — 채팅에 이미지를 붙인다: 📎 여러 장, Ctrl+V 붙여넣기, 끌어놓기. 최대 6장, 썸네일, 눌러서 크게 보기. 이미지는 대화의 참고 자료로 AI 가 본다(Claude·GPT 둘 다). 이미지로 도면 만들기는 /도면화 명령으로."
+  "notes": "0.9.10 — 0.9.9 와 같고, 벨라 안 모델이 읽는 도구 설명서에 깨진 글자로 세 번 겹쳐 붙은 단락을 걷어냈다(106동 예시의 '동'이 깨져 있었다). 채팅 이미지 첨부(📎·Ctrl+V·끌어놓기), /도면화."
 }
