@@ -1,12 +1,12 @@
 {
-  "version": "0.9.10",
-  "published": "2026-09-23T08:24:56Z",
+  "version": "0.9.11",
+  "published": "2026-09-23T10:35:18Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.10.exe",
-      "sha256": "6d077f973ba6fa9069307cb9ff8386fa4b8e639e6d465fb9957950ef279c410a",
-      "size": 27458560
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.11.exe",
+      "sha256": "71e3da8f8c3daf4f1beb136e97c9bb43aa3eacb42d3409f9c9589a4ebf6b3110",
+      "size": 27462144
     }
   },
-  "notes": "0.9.10 — 0.9.9 와 같고, 벨라 안 모델이 읽는 도구 설명서에 깨진 글자로 세 번 겹쳐 붙은 단락을 걷어냈다(106동 예시의 '동'이 깨져 있었다). 채팅 이미지 첨부(📎·Ctrl+V·끌어놓기), /도면화."
+  "notes": "승인하면 직스캐드가 꺼지던 자리를 막았다. 다시 꺼지면 다음 기동 때 어디서 끊겼는지 로그에 남는다."
 }
