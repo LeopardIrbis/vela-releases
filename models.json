@@ -1,34 +1,83 @@
 {
   "schema": 1,
-  "version": 1,
-  "updated": "2026-09-23T16:00:00+09:00",
+  "version": 2,
+  "updated": "2026-09-23T16:29:12+09:00",
   "default": "gpt-5.6-terra",
   "groups": [
     {
       "provider": "gpt",
       "label": "GPT",
       "default": "gpt-5.6-terra",
-      "efforts": ["none", "low", "medium", "high", "xhigh", "max"],
+      "efforts": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
       "default_effort": "high",
       "items": [
-        { "value": "gpt-5.6-terra", "label": "5.6 terra", "chip": "gpt-5.6 terra" },
-        { "value": "gpt-5.6-sol", "label": "5.6 sol", "chip": "gpt-5.6 sol" },
-        { "value": "gpt-5.6-luna", "label": "5.6 luna", "chip": "gpt-5.6 luna" },
-        { "value": "gpt-6-astra", "label": "6 astra", "chip": "gpt-6 astra" },
-        { "value": "gpt-6-sol", "label": "6 sol", "chip": "gpt-6 sol" },
-        { "value": "gpt-6-luna", "label": "6 luna", "chip": "gpt-6 luna" }
+        {
+          "value": "gpt-5.6-terra",
+          "label": "5.6 terra",
+          "chip": "gpt-5.6 terra"
+        },
+        {
+          "value": "gpt-5.6-sol",
+          "label": "5.6 sol",
+          "chip": "gpt-5.6 sol"
+        },
+        {
+          "value": "gpt-5.6-luna",
+          "label": "5.6 luna",
+          "chip": "gpt-5.6 luna"
+        },
+        {
+          "value": "gpt-6-astra",
+          "label": "6 astra",
+          "chip": "gpt-6 astra"
+        },
+        {
+          "value": "gpt-6-sol",
+          "label": "6 sol",
+          "chip": "gpt-6 sol"
+        },
+        {
+          "value": "gpt-6-luna",
+          "label": "6 luna",
+          "chip": "gpt-6 luna"
+        }
       ]
     },
     {
       "provider": "claude",
       "label": "Claude",
       "default": "claude-fable",
-      "efforts": ["low", "medium", "high", "xhigh", "max"],
+      "efforts": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
       "default_effort": "high",
       "items": [
-        { "value": "claude-fable", "label": "fable 5.1", "chip": "claude fable 5.1" },
-        { "value": "claude-opus", "label": "opus 5", "chip": "claude opus 5" },
-        { "value": "claude-sonnet", "label": "sonnet 5", "chip": "claude sonnet 5" }
+        {
+          "value": "claude-fable",
+          "label": "fable 5.1",
+          "chip": "claude fable 5.1"
+        },
+        {
+          "value": "claude-opus",
+          "label": "opus 5.5",
+          "chip": "claude opus 5.5"
+        },
+        {
+          "value": "claude-sonnet",
+          "label": "sonnet 5",
+          "chip": "claude sonnet 5"
+        }
       ]
     }
   ]
