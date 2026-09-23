@@ -1,12 +1,12 @@
 {
-  "version": "0.9.7",
-  "published": "2026-09-21T06:18:38Z",
+  "version": "0.9.8",
+  "published": "2026-09-23T07:22:05Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.7.exe",
-      "sha256": "673abe51c7e18ec74c120478bf3aeebf35239e26f24163c95a5280754102959f",
-      "size": 27032064
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.8.exe",
+      "sha256": "c27e64675c808934d94b50eab76e4c7d422bd4481d49365de3da7090eea22dab",
+      "size": 27177472
     }
   },
-  "notes": "0.9.7 — 문장 속 '고쳐'가 요청을 납치하던 것 고침. 이제 /fix 명령으로만 그 뜻이 된다. 선택한 글자를 규칙으로 바꾸는 문법 추가 — 찾을 규칙 + 숫자 더하기/빼기 또는 갈아끼우기. 미리보기에 바뀔 글자가 하나씩 뜨고, 승인해야 들어간다."
+  "notes": "0.9.8 — 모델 목록이 코드가 아니라 목록 파일에서 온다. 새 모델은 재설치 없이 켤 때 들어온다. GPT 6(astra·sol·luna) 추가. 밀린 보고를 30초마다 다시 보내던 것 고침(최대 30분 간격). 직스캐드를 두 번 찾아 두 번 깔던 것 고침. 보고에 다른 도면 대화가 실리던 것 고침."
 }
