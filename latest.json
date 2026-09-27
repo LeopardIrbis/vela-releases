@@ -1,12 +1,12 @@
 {
-  "version": "0.9.11",
-  "published": "2026-09-23T10:35:18Z",
+  "version": "0.9.12",
+  "published": "2026-09-27T16:24:41Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.11.exe",
-      "sha256": "71e3da8f8c3daf4f1beb136e97c9bb43aa3eacb42d3409f9c9589a4ebf6b3110",
-      "size": 27462144
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.12.exe",
+      "sha256": "f0364e79e5ded52a26d03630e3f0bb780025a5036eabd15635e1226400f4cdd5",
+      "size": 27499520
     }
   },
-  "notes": "승인하면 직스캐드가 꺼지던 자리를 막았다. 다시 꺼지면 다음 기동 때 어디서 끊겼는지 로그에 남는다."
+  "notes": "캐드가 말없이 꺼지면 다음 기동 때 벨라가 사인(죽은 모듈·예외 코드)을 모아 스스로 보고한다."
 }
