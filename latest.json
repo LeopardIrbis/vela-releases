@@ -1,12 +1,12 @@
 {
-  "version": "0.9.12",
-  "published": "2026-09-27T16:24:41Z",
+  "version": "0.9.13",
+  "published": "2026-09-27T17:06:43Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.12.exe",
-      "sha256": "f0364e79e5ded52a26d03630e3f0bb780025a5036eabd15635e1226400f4cdd5",
-      "size": 27499520
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.13.exe",
+      "sha256": "7cf519737824d0ebececa108bf7b2ac3294ee823d1933c628542af3423545615",
+      "size": 27500032
     }
   },
-  "notes": "캐드가 말없이 꺼지면 다음 기동 때 벨라가 사인(죽은 모듈·예외 코드)을 모아 스스로 보고한다."
+  "notes": "직스캐드에서 읽기 트랜잭션이 새어 캐드를 내릴 수 있던 구멍을 막았다. 승인 명령이 어느 길로 나갔는지 로그에 남긴다."
 }
