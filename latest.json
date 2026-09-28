@@ -1,12 +1,12 @@
 {
-  "version": "0.9.13",
-  "published": "2026-09-27T17:06:43Z",
+  "version": "0.9.14",
+  "published": "2026-09-28T00:58:19Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.13.exe",
-      "sha256": "7cf519737824d0ebececa108bf7b2ac3294ee823d1933c628542af3423545615",
-      "size": 27500032
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.14.exe",
+      "sha256": "988000978503faab0d0af83f3c14e17a938488ee79f99a5e3b0140a4fca91224",
+      "size": 27499520
     }
   },
-  "notes": "직스캐드에서 읽기 트랜잭션이 새어 캐드를 내릴 수 있던 구멍을 막았다. 승인 명령이 어느 길로 나갔는지 로그에 남긴다."
+  "notes": "직스캐드에서 승인하면 꺼지던 자리를 고쳤다 — 승인 명령 안에서 예외를 던지지 않는다."
 }
