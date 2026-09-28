@@ -1,12 +1,12 @@
 {
-  "version": "0.9.14",
-  "published": "2026-09-28T00:58:19Z",
+  "version": "0.9.15",
+  "published": "2026-09-28T02:05:07Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.14.exe",
-      "sha256": "988000978503faab0d0af83f3c14e17a938488ee79f99a5e3b0140a4fca91224",
-      "size": 27499520
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.15.exe",
+      "sha256": "f00ca058421c581c6cc8bdac25952db9d4d4705e2a2d5ea32e19f0d29a7e34ac",
+      "size": 27502080
     }
   },
-  "notes": "직스캐드에서 승인하면 꺼지던 자리를 고쳤다 — 승인 명령 안에서 예외를 던지지 않는다."
+  "notes": "opus 벨라도 우리 테두리 알고리즘으로 테두리를 그린다(닫힌 폴리선). 두 두뇌의 능력을 한 표로 맞춘다."
 }
