@@ -1,12 +1,12 @@
 {
-  "version": "0.9.15",
-  "published": "2026-09-28T02:05:07Z",
+  "version": "0.9.16",
+  "published": "2026-09-28T02:45:44Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.15.exe",
-      "sha256": "f00ca058421c581c6cc8bdac25952db9d4d4705e2a2d5ea32e19f0d29a7e34ac",
-      "size": 27502080
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.16.exe",
+      "sha256": "9b98e1c85cfce08c49d22a52cbebe300a0cd7cdd318da7014b4605babfffed67",
+      "size": 27501568
     }
   },
-  "notes": "opus 벨라도 우리 테두리 알고리즘으로 테두리를 그린다(닫힌 폴리선). 두 두뇌의 능력을 한 표로 맞춘다."
+  "notes": "직스캐드: 승인한 작업이 도면을 실제로 바꾸면 캐드가 꺼지던 문제 — 명령을 우리 코드 위에서 중첩으로 돌리지 않고 캐드 명령 큐로 보낸다"
 }
