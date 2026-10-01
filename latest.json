@@ -1,12 +1,12 @@
 {
-  "version": "0.9.16",
-  "published": "2026-09-28T02:45:44Z",
+  "version": "0.9.17",
+  "published": "2026-10-01T08:08:12Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.16.exe",
-      "sha256": "9b98e1c85cfce08c49d22a52cbebe300a0cd7cdd318da7014b4605babfffed67",
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.17.exe",
+      "sha256": "ff8641ab0e717bfedfafd579c6af5360b7a47f87860aae26147ac0463379af54",
       "size": 27501568
     }
   },
-  "notes": "직스캐드: 승인한 작업이 도면을 실제로 바꾸면 캐드가 꺼지던 문제 — 명령을 우리 코드 위에서 중첩으로 돌리지 않고 캐드 명령 큐로 보낸다"
+  "notes": "### 개선\n- 업데이트 창에 판마다 달라진 점이 고침 · 개선 · 추가로 나뉘어 적힘"
 }
