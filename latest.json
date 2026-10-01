@@ -1,12 +1,12 @@
 {
-  "version": "0.9.18",
-  "published": "2026-10-01T09:14:50Z",
+  "version": "0.9.19",
+  "published": "2026-10-01T09:44:48Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.18.exe",
-      "sha256": "be7e71386aae7049c55b95035b415cc351cdf67353f1fa8efe27e5ab69f04ac0",
-      "size": 28367872
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.19.exe",
+      "sha256": "b4a896b658302d10dc97223297f7bdbbc1538f55ae12ebcf018568e4177d4d7d",
+      "size": 28516352
     }
   },
-  "notes": "### 개선\n- 업데이트 창 새 디자인 — 건너뛴 판까지 판별 노트를 한 화면에\n- 설치기 새 디자인 — 시작 · 캐드 선택 · 설치 · 완료 네 단계\n- 계획 카드와 라이브러리에 내부 이름 대신 사람 말 표시\n- 실패 · 거절된 답이 보통 답과 구별되어 표시\n- 작업 중 표시를 한 자리로 통일\n- 패널을 연 채로 다른 패널로 바로 이동\n- 슬래시 메뉴 전 항목 스크롤 · /help 를 묶음별 표로 정리\n- 오류 화면 단추 대비 개선, 오류 원문은 자세히 안으로\n\n### 추가\n- 캐드를 켤 때 벨라 시작 화면 — 설정에서 끄기 가능\n- 설치 파일과 창의 벨라 아이콘"
+  "notes": "### 개선\n- 글자 크기를 여섯 단계로 정리 — 화면마다 제각각이던 크기 통일\n- 여백과 간격을 4픽셀 격자로 정렬\n- 한국어가 낱말 중간에서 줄바꿈되지 않음\n- 키보드 이동 때 초점 테두리가 모든 단추에 같은 모양으로 표시\n- 생각 강도 칩의 한글 간격이 넓게 벌어지던 문제 수정\n- 좁은 폭에서도 가로 스크롤 없이 한 줄로 표시"
 }
