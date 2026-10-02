@@ -1,12 +1,12 @@
 {
-  "version": "0.9.20",
-  "published": "2026-10-02T02:22:02Z",
+  "version": "0.9.21",
+  "published": "2026-10-02T06:36:11Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.20.exe",
-      "sha256": "2128974d7e25eb91bae250f4d24b8435e3bb34d2fb0c4653392321ea03d49eb9",
-      "size": 28525056
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.21.exe",
+      "sha256": "d8f4dda9b270e2a80d55c1a43f09406f3df12258c2c92878e71093d2f1133ee6",
+      "size": 28584448
     }
   },
-  "notes": "### 고침\n- 업데이트 뒤 캐드가 빈 새 도면으로 켜지던 문제 — 하던 도면으로 다시 열림\n- 여러 도면을 열어 둔 채 업데이트해도 모두 다시 열리고 보던 도면이 앞에 표시"
+  "notes": "### 개선\n- 시작 화면이 움직임 — 벨라 서명이 한 획씩 그려지고 바탕 물결이 흐름\n- 시작 화면 위에 마우스를 올리면 물결과 별자리가 따라 반응"
 }
