@@ -1,12 +1,12 @@
 {
-  "version": "0.9.19",
-  "published": "2026-10-01T09:44:48Z",
+  "version": "0.9.20",
+  "published": "2026-10-02T02:22:02Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.19.exe",
-      "sha256": "b4a896b658302d10dc97223297f7bdbbc1538f55ae12ebcf018568e4177d4d7d",
-      "size": 28516352
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.20.exe",
+      "sha256": "2128974d7e25eb91bae250f4d24b8435e3bb34d2fb0c4653392321ea03d49eb9",
+      "size": 28525056
     }
   },
-  "notes": "### 개선\n- 글자 크기를 여섯 단계로 정리 — 화면마다 제각각이던 크기 통일\n- 여백과 간격을 4픽셀 격자로 정렬\n- 한국어가 낱말 중간에서 줄바꿈되지 않음\n- 키보드 이동 때 초점 테두리가 모든 단추에 같은 모양으로 표시\n- 생각 강도 칩의 한글 간격이 넓게 벌어지던 문제 수정\n- 좁은 폭에서도 가로 스크롤 없이 한 줄로 표시"
+  "notes": "### 고침\n- 업데이트 뒤 캐드가 빈 새 도면으로 켜지던 문제 — 하던 도면으로 다시 열림\n- 여러 도면을 열어 둔 채 업데이트해도 모두 다시 열리고 보던 도면이 앞에 표시"
 }
