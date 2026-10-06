@@ -1,12 +1,12 @@
 {
-  "version": "0.9.23",
-  "published": "2026-10-06T07:46:13Z",
+  "version": "0.9.24",
+  "published": "2026-10-06T15:33:03Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.23.exe",
-      "sha256": "3d560ec6b8c1046822712ac6ea2085c4a80fb7cc7f1b1ff5fa2a3d10728f7d8d",
-      "size": 28596224
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.24.exe",
+      "sha256": "aa20c1ac8defc33c0247ae5b67400339f6e27dc42b834d5ea515813fe3edfc66",
+      "size": 28597248
     }
   },
-  "notes": "### 고침\n- 업데이트 뒤 하던 도면이 다시 열리지 않던 문제 — 캐드를 닫기 전에 열린 도면을 먼저 기록\n- 괄호가 든 이름의 도면을 다시 열 때 직스캐드가 창 없이 멈추던 문제\n- 업데이트 뒤 남던 빈 새 도면을 자동으로 닫음"
+  "notes": "### 고침\n- 직스캐드에서 인쇄를 시작할 때 캐드가 꺼지던 문제 — 벨라가 인쇄 알림을 받지 않도록 변경\n- 직스캐드 인쇄 기록은 인쇄 명령의 시작과 끝으로 남김"
 }
