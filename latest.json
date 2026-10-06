@@ -1,12 +1,12 @@
 {
-  "version": "0.9.22",
-  "published": "2026-10-06T06:54:40Z",
+  "version": "0.9.23",
+  "published": "2026-10-06T07:46:13Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.22.exe",
-      "sha256": "8788253c9ada618ea13551288f49324d7aa21348334e1b8b02a7a8bc34de0a0a",
-      "size": 28588032
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.23.exe",
+      "sha256": "3d560ec6b8c1046822712ac6ea2085c4a80fb7cc7f1b1ff5fa2a3d10728f7d8d",
+      "size": 28596224
     }
   },
-  "notes": "### 고침\n- 인쇄 직후 캐드가 꺼질 수 있던 자리 — 벨라 쪽 오류가 캐드로 번지지 않음\n- 인쇄와 저장 순간에 하던 기록 작업을 뒤로 미뤄 캐드 멈춤 위험 감소\n- 시작 화면이 닫히는 순간 드물게 나던 오류"
+  "notes": "### 고침\n- 업데이트 뒤 하던 도면이 다시 열리지 않던 문제 — 캐드를 닫기 전에 열린 도면을 먼저 기록\n- 괄호가 든 이름의 도면을 다시 열 때 직스캐드가 창 없이 멈추던 문제\n- 업데이트 뒤 남던 빈 새 도면을 자동으로 닫음"
 }
