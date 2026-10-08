@@ -1,12 +1,12 @@
 {
-  "version": "0.9.24",
-  "published": "2026-10-06T15:33:03Z",
+  "version": "0.9.25",
+  "published": "2026-10-08T06:03:14Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.24.exe",
-      "sha256": "aa20c1ac8defc33c0247ae5b67400339f6e27dc42b834d5ea515813fe3edfc66",
-      "size": 28597248
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.25.exe",
+      "sha256": "1b7d8b2b0f29b2d49a971bc42f0f4ea831e1bda6d4d997c1701537246c9a5f7d",
+      "size": 28612096
     }
   },
-  "notes": "### 고침\n- 직스캐드에서 인쇄를 시작할 때 캐드가 꺼지던 문제 — 벨라가 인쇄 알림을 받지 않도록 변경\n- 직스캐드 인쇄 기록은 인쇄 명령의 시작과 끝으로 남김"
+  "notes": "### 고침\n- 선택한 채로 요청해도 도중에 선택이 풀려 대상이 없다고 멈추던 문제 — 보낸 순간의 선택을 그 요청의 대상으로 고정\n- 벨라가 캐드에 명령을 보낼 때 사용자의 선택이 풀리던 문제\n- 사용자가 명령을 쓰는 중이면 벨라의 작업이 끝날 때까지 기다림 — 하던 명령을 끊지 않음\n- 직스캐드에서 화면 보기가 캐드 명령 없이 동작"
 }
