@@ -1,12 +1,12 @@
 {
-  "version": "0.9.25",
-  "published": "2026-10-08T06:03:14Z",
+  "version": "0.9.26",
+  "published": "2026-10-15T06:20:18Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.25.exe",
-      "sha256": "1b7d8b2b0f29b2d49a971bc42f0f4ea831e1bda6d4d997c1701537246c9a5f7d",
-      "size": 28612096
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.26.exe",
+      "sha256": "4d91eff413191eaa94552dcc4fdf569477f9a95d23efd8a5b334e6033ef08f32",
+      "size": 28631040
     }
   },
-  "notes": "### 고침\n- 선택한 채로 요청해도 도중에 선택이 풀려 대상이 없다고 멈추던 문제 — 보낸 순간의 선택을 그 요청의 대상으로 고정\n- 벨라가 캐드에 명령을 보낼 때 사용자의 선택이 풀리던 문제\n- 사용자가 명령을 쓰는 중이면 벨라의 작업이 끝날 때까지 기다림 — 하던 명령을 끊지 않음\n- 직스캐드에서 화면 보기가 캐드 명령 없이 동작"
+  "notes": "### 고침\n- 큰 도면에서 AI가 도면 내용이나 승인 카드를 끝까지 못 읽던 문제 — 받을 수 있는 크기로 요약하고 나머지는 이어서 읽음\n- 지정한 개체만 읽으라고 해도 도면 전체를 읽던 문제"
 }
