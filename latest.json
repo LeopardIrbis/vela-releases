@@ -1,12 +1,12 @@
 {
-  "version": "0.9.28",
-  "published": "2026-10-15T07:38:19Z",
+  "version": "0.9.29",
+  "published": "2026-10-15T08:09:18Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.28.exe",
-      "sha256": "ddbeb193733b922ebcd270b033f912d455c55bff8937c9591676a2f4350deb49",
-      "size": 28662784
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.29.exe",
+      "sha256": "85e3c5d8dc85ccf3b2da1c7b87ae19453a16c41686dd529f2558f410884ce3bd",
+      "size": 28679680
     }
   },
-  "notes": "### 고침\n- 캐드가 바쁠 때 AI가 도면을 읽지 못하고 기다리다 멈추던 문제 — 직전 사본으로 바로 답하고 언제 기준인지 표시\n- 동작이 빠진 요청이 수 분씩 붙잡히던 문제 — 1초 안에 돌려보내며 고칠 예시를 함께 줌\n\n### 개선\n- AI 도구 응답마다 걸린 시간과 기다린 까닭을 함께 남김"
+  "notes": "### 고침\n- AI가 높이 값을 보지 못하던 문제 — 폴리선 고도와 개체 높이를 함께 읽음\n- 벨라가 방금 바꾼 내용이 다음 읽기에 바로 보이지 않던 문제\n\n### 개선\n- 몇 개 · 어느 것 · 어떤 값을 묻는 질문 하나 — 개수와 값은 기계가 세고 AI는 결과만 받음"
 }
