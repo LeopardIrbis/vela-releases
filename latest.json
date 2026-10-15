@@ -1,12 +1,12 @@
 {
-  "version": "0.9.27",
-  "published": "2026-10-15T06:48:28Z",
+  "version": "0.9.28",
+  "published": "2026-10-15T07:38:19Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.27.exe",
-      "sha256": "52eabf2a683c5d0bfaed1b58218de07ab96d0ebe0bc94f7648209c250025d515",
-      "size": 28646400
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.28.exe",
+      "sha256": "ddbeb193733b922ebcd270b033f912d455c55bff8937c9591676a2f4350deb49",
+      "size": 28662784
     }
   },
-  "notes": "### 고침\n- AI가 고칠 개체를 번호로 지정했는데도 범위가 없다며 거절당하던 문제\n- 거절될 때 어느 칸이 틀렸고 어떻게 고치는지 함께 알려 줌\n\n### 개선\n- AI가 쓸 수 있는 동작 목록과 예시를 실제 기능과 일치시킴 — 개수 세기 · 설명 · 고르기 포함"
+  "notes": "### 고침\n- 캐드가 바쁠 때 AI가 도면을 읽지 못하고 기다리다 멈추던 문제 — 직전 사본으로 바로 답하고 언제 기준인지 표시\n- 동작이 빠진 요청이 수 분씩 붙잡히던 문제 — 1초 안에 돌려보내며 고칠 예시를 함께 줌\n\n### 개선\n- AI 도구 응답마다 걸린 시간과 기다린 까닭을 함께 남김"
 }
