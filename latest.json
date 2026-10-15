@@ -1,12 +1,12 @@
 {
-  "version": "0.9.26",
-  "published": "2026-10-15T06:20:18Z",
+  "version": "0.9.27",
+  "published": "2026-10-15T06:48:28Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.26.exe",
-      "sha256": "4d91eff413191eaa94552dcc4fdf569477f9a95d23efd8a5b334e6033ef08f32",
-      "size": 28631040
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.27.exe",
+      "sha256": "52eabf2a683c5d0bfaed1b58218de07ab96d0ebe0bc94f7648209c250025d515",
+      "size": 28646400
     }
   },
-  "notes": "### 고침\n- 큰 도면에서 AI가 도면 내용이나 승인 카드를 끝까지 못 읽던 문제 — 받을 수 있는 크기로 요약하고 나머지는 이어서 읽음\n- 지정한 개체만 읽으라고 해도 도면 전체를 읽던 문제"
+  "notes": "### 고침\n- AI가 고칠 개체를 번호로 지정했는데도 범위가 없다며 거절당하던 문제\n- 거절될 때 어느 칸이 틀렸고 어떻게 고치는지 함께 알려 줌\n\n### 개선\n- AI가 쓸 수 있는 동작 목록과 예시를 실제 기능과 일치시킴 — 개수 세기 · 설명 · 고르기 포함"
 }
