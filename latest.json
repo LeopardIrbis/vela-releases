@@ -1,12 +1,12 @@
 {
-  "version": "0.9.29",
-  "published": "2026-10-15T08:09:18Z",
+  "version": "0.9.30",
+  "published": "2026-10-15T08:32:28Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.29.exe",
-      "sha256": "85e3c5d8dc85ccf3b2da1c7b87ae19453a16c41686dd529f2558f410884ce3bd",
-      "size": 28679680
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.30.exe",
+      "sha256": "13b7a8dd8c6bd7682ca16d3cdd0c773036539e932c54c62b2883fb8bc0a5b7fd",
+      "size": 28684288
     }
   },
-  "notes": "### 고침\n- AI가 높이 값을 보지 못하던 문제 — 폴리선 고도와 개체 높이를 함께 읽음\n- 벨라가 방금 바꾼 내용이 다음 읽기에 바로 보이지 않던 문제\n\n### 개선\n- 몇 개 · 어느 것 · 어떤 값을 묻는 질문 하나 — 개수와 값은 기계가 세고 AI는 결과만 받음"
+  "notes": "### 개선\n- 고치기 · 읽기 요청에서 AI가 받는 기본 지시를 약 30퍼센트 줄임 — 한 번 읽고 한 번에 적용하는 순서\n- 설계 안내는 설계를 요청할 때만 함께 전달 — 설계 기능은 그대로"
 }
