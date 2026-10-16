@@ -1,12 +1,12 @@
 {
-  "version": "0.9.30",
-  "published": "2026-10-15T08:32:28Z",
+  "version": "0.9.31",
+  "published": "2026-10-16T12:45:07Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.30.exe",
-      "sha256": "13b7a8dd8c6bd7682ca16d3cdd0c773036539e932c54c62b2883fb8bc0a5b7fd",
-      "size": 28684288
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.31.exe",
+      "sha256": "149ff481a981fa21971224b06f29a92db69467bd1426b3c1ba2565df61c362a5",
+      "size": 28689408
     }
   },
-  "notes": "### 개선\n- 고치기 · 읽기 요청에서 AI가 받는 기본 지시를 약 30퍼센트 줄임 — 한 번 읽고 한 번에 적용하는 순서\n- 설계 안내는 설계를 요청할 때만 함께 전달 — 설계 기능은 그대로"
+  "notes": "### 고침\n- 테두리를 그려 달라고 하면 AI가 사각형이나 낱선을 직접 계산해 긋던 문제 — 테두리 따기로 닫힌 폴리선을 그림\n- AI가 테두리 요청에 선을 그으려 하면 거절하고 바른 방법을 알려 줌 — 선으로 · 사각형으로 라고 말하면 그대로 그림"
 }
