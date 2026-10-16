@@ -1,12 +1,12 @@
 {
-  "version": "0.9.32",
-  "published": "2026-10-16T13:54:31Z",
+  "version": "0.9.33",
+  "published": "2026-10-16T14:35:48Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.32.exe",
-      "sha256": "c553a3ae64abfe1095090322f59012e085956da537cece0781e89c4d084c1f94",
-      "size": 28705280
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.33.exe",
+      "sha256": "ae57e057dbadfb4201b26a2ae0e8393d0db7417d13a538e7d7615630278ff031",
+      "size": 28849152
     }
   },
-  "notes": "### 고침\n- 높이를 0으로 맞춰 달라는 요청을 처리하지 못하고 수 분씩 멈추던 문제 — 모든 개체의 높이를 한 번에 맞춤\n- 기울어진 원 · 호는 캐드의 평탄화와 같이 타원으로 바꾸고 승인 카드에 개수를 표시\n- 고칠 수 없는 요청을 AI가 뒤에서 여러 번 다시 시도하며 시간과 비용을 쓰던 문제 — 바로 이유를 알려 줌\n\n### 개선\n- 이동 · 복사에 높이 방향 이동 추가"
+  "notes": "### 고침\n- AI가 작업하는 도중 업데이트 설치가 캐드를 닫을 수 있던 문제 — 벨라 작업 · 사용자 명령이 끝날 때까지 기다렸다 설치\n- 설치기가 실제로 뜨지 않았는데 캐드만 닫히던 문제 — 설치기가 보일 때만 캐드를 닫음\n- 업데이트 창이 키보드 입력을 가로챌 수 있던 문제 — 창이 떠도 하던 작업의 입력을 빼앗지 않음\n\n### 개선\n- 업데이트를 기다리는 동안 채팅 아래에 기다리는 까닭 표시"
 }
