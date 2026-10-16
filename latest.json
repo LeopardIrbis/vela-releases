@@ -1,12 +1,12 @@
 {
-  "version": "0.9.31",
-  "published": "2026-10-16T12:45:07Z",
+  "version": "0.9.32",
+  "published": "2026-10-16T13:54:31Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.31.exe",
-      "sha256": "149ff481a981fa21971224b06f29a92db69467bd1426b3c1ba2565df61c362a5",
-      "size": 28689408
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.32.exe",
+      "sha256": "c553a3ae64abfe1095090322f59012e085956da537cece0781e89c4d084c1f94",
+      "size": 28705280
     }
   },
-  "notes": "### 고침\n- 테두리를 그려 달라고 하면 AI가 사각형이나 낱선을 직접 계산해 긋던 문제 — 테두리 따기로 닫힌 폴리선을 그림\n- AI가 테두리 요청에 선을 그으려 하면 거절하고 바른 방법을 알려 줌 — 선으로 · 사각형으로 라고 말하면 그대로 그림"
+  "notes": "### 고침\n- 높이를 0으로 맞춰 달라는 요청을 처리하지 못하고 수 분씩 멈추던 문제 — 모든 개체의 높이를 한 번에 맞춤\n- 기울어진 원 · 호는 캐드의 평탄화와 같이 타원으로 바꾸고 승인 카드에 개수를 표시\n- 고칠 수 없는 요청을 AI가 뒤에서 여러 번 다시 시도하며 시간과 비용을 쓰던 문제 — 바로 이유를 알려 줌\n\n### 개선\n- 이동 · 복사에 높이 방향 이동 추가"
 }
