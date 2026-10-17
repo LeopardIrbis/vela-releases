@@ -1,12 +1,12 @@
 {
-  "version": "0.9.36",
-  "published": "2026-10-17T04:51:35Z",
+  "version": "0.9.37",
+  "published": "2026-10-17T06:57:16Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.36.exe",
-      "sha256": "f88fed692d84e81d2f208526d01770fd8df536a472c6dc1bcc44bcb16a032f9d",
-      "size": 28958720
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.37.exe",
+      "sha256": "5b14f97dc7fc0fa99ea6ef6abc649d6e9d30563e8d3f14cac4760ba01a3845b5",
+      "size": 28966912
     }
   },
-  "notes": "### 고침\n- 도면에서 아파트 테두리를 찾을 때 2분 상한에 걸려 멈추던 문제 — 15동 기준 약 30초, 결과는 전과 같음"
+  "notes": "### 고침\n- 아파트 테두리를 찾는 동안 캐드가 30초 가까이 멈추던 문제 — 찾는 동안에도 캐드 사용 가능\n- 테두리 찾기 중지를 눌러도 끝까지 돌던 문제 — 바로 멈추고 도면은 그대로\n- 일부 도면에서 테두리 찾기가 오류로 끝나던 문제 — 어느 동의 어떤 선이 남았는지 알려 줌\n\n### 개선\n- 테두리를 찾는 사이 도면이 바뀌면 낡은 결과를 그리지 않고 다시 부르라고 알려 줌"
 }
