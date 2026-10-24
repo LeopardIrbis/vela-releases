@@ -1,12 +1,12 @@
 {
-  "version": "0.9.38",
-  "published": "2026-10-17T08:50:40Z",
+  "version": "0.9.39",
+  "published": "2026-10-24T10:43:53Z",
   "assets": {
     "setup": {
-      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.38.exe",
-      "sha256": "ae89d2b448288d9fe9bbd0269c8ae5828bdc5efdf44a8df8bcc0c96e7d6873d9",
-      "size": 28973056
+      "url": "https://raw.githubusercontent.com/LeopardIrbis/vela-releases/main/VelaSetup-0.9.39.exe",
+      "sha256": "64a5d11fdb10e69823f70406e4af30257e9cd14f154a7ec6ee17b0bc71f927a3",
+      "size": 28985344
     }
   },
-  "notes": "### 고침\n- 대칭 복사한 문자 · 여러 줄 글 · 블록 속성이 기울어진 대칭선에서 캐드와 다른 자리 · 각도에 놓이던 문제\n- 평형 · 세대수 분석이 오래 걸리는 도면에서 캐드가 멈추던 문제 — 분석 중에도 캐드 사용 가능\n- 평형 · 세대수 분석 중지를 눌러도 끝까지 돌던 문제 — 바로 멈춤"
+  "notes": "### 고침\n- GPT로 평형 · 세대수를 분석하는 동안 캐드가 멈추던 문제 — 분석 중에도 캐드 사용 가능\n- 외부 참조 안의 개체 · 레이어 이름을 고치려 하면 승인 전에 거절하고 이유를 알려 줌\n\n### 추가\n- 외부 참조 목록 보기 — 이름 · 종류 · 상태 · 경로 · 중첩 · 자르기 여부\n- 외부 참조 하나의 안에 무엇이 몇 개 있는지 보기\n- 도면 읽기에서 외부 참조를 블록과 구분해 표시"
 }
